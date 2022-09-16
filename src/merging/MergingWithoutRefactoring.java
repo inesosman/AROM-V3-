@@ -134,13 +134,13 @@ public class MergingWithoutRefactoring {
 		/** selecting and entering input ontologies to be merged */
 
 		/** Conference base */
-        ontologiesFiles.add("Data/cmt.owl");
-        ontologiesFiles.add("Data/Conference.owl");
-        ontologiesFiles.add("Data/confOf.owl");
-        ontologiesFiles.add("Data/edas.owl");
-        ontologiesFiles.add("Data/ekaw.owl");
-        ontologiesFiles.add("Data/iasted.owl");
-        ontologiesFiles.add("Data/sigkdd.owl");
+                ontologiesFiles.add("Data/cmt.owl");
+                ontologiesFiles.add("Data/Conference.owl");
+                ontologiesFiles.add("Data/confOf.owl");
+                ontologiesFiles.add("Data/edas.owl");
+                ontologiesFiles.add("Data/ekaw.owl");
+                ontologiesFiles.add("Data/iasted.owl");
+                ontologiesFiles.add("Data/sigkdd.owl");
 
 		/** Anatomy base */
 		//ontologiesFiles.add("Data/human.owl");
