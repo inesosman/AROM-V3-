@@ -136,13 +136,13 @@ public class MergingWithRefactoring {
 		/** selecting and entering input ontologies to be merged */
 
 		/** Conference base */
-        ontologiesFiles.add("Data/cmt.owl");
-        ontologiesFiles.add("Data/Conference.owl");
-        ontologiesFiles.add("Data/confOf.owl");
-        ontologiesFiles.add("Data/edas.owl");
-        ontologiesFiles.add("Data/ekaw.owl");
-        ontologiesFiles.add("Data/iasted.owl");
-        ontologiesFiles.add("Data/sigkdd.owl");
+                ontologiesFiles.add("Data/cmt.owl");
+                ontologiesFiles.add("Data/Conference.owl");
+                ontologiesFiles.add("Data/confOf.owl");
+                ontologiesFiles.add("Data/edas.owl");
+                ontologiesFiles.add("Data/ekaw.owl");
+                ontologiesFiles.add("Data/iasted.owl");
+                ontologiesFiles.add("Data/sigkdd.owl");
 
 		/** Anatomy base */
 //		ontologiesFiles.add("Data/human.owl");
@@ -1312,7 +1312,7 @@ public class MergingWithRefactoring {
 					String c = ch.substring((index + 1));
 
 					objectProp = df.getOWLObjectProperty(IRI.create(iri + number + "#" + c));
-					//objectProp = df.getOWLObjectProperty(IRI.create(iri + numéro + "#", objProperty.getIRI().getFragment()));
+					//objectProp = df.getOWLObjectProperty(IRI.create(iri + numÃ©ro + "#", objProperty.getIRI().getFragment()));
 					OWLDeclarationAxiom ax = df.getOWLDeclarationAxiom(objectProp);
 					axioms.add(ax);
 				}
